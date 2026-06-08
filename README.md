@@ -88,4 +88,4 @@ membership.rules.cohort.platinum-cohorts=CORPORATE
 
 ## Note on `application.properties`
 
-`application.properties` is committed intentionally. The credentials it contains (`membership_user`/`membership_pass`) are local Docker defaults — identical to what is already in `docker-compose.yml`. In a production environment these values are overridden by environment variables injected at runtime. `application.properties.example` serves as the documented template for new project contributors.
+`application.properties` is committed intentionally to deploy over railway. The credentials it contains (`membership_user`/`membership_pass`) are local Docker defaults — identical to what is already in `docker-compose.yml`. In a production environment these values are overridden by environment variables injected at runtime. `application.properties.example` serves as the documented template for new project contributors.
